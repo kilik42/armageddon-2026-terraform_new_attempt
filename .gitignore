@@ -1,0 +1,58 @@
+# ==============================
+# Terraform files
+# ==============================
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Lock file – usually safe to ignore
+terraform.lock.hcl
+
+# ==============================
+# AWS credential-related
+# ==============================
+.aws/
+credentials
+config
+
+# Environment variable files
+.env
+.env.*
+
+# ==============================
+# Python files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.virtualenv/
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# IDE / OS junk
+# ==============================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
